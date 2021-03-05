@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lịch tháng 10/2009</title>
+    <style>
+        .container {
+            width: 100%;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        .header {
+            color: blue;
+            text-align: center;
+        }
+        .calendar-table {
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        .calendar-table td {
+            width: 10%;
+            border-style: inset;
+            border-width: 5px;
+
+        }
+        .first-header-sunday {
+            background: red;
+            color: white;
+            border: 3px solid white;
+        }
+        .first-header-weekday {
+            background: orange;
+            color: white;
+            border: 3px solid white;
+        }
+        .first-header-saturday {
+            background: blue;
+            color: white;
+            border: 3px solid white;
+        }
+        .second-header-sunday {
+            color: red;
+            font-weight: normal;
+        }
+        .second-header-weekday {
+            font-weight: normal;
+        }
+        .second-header-saturday {
+            color: blue;
+            font-weight: normal;
+        }
+        .data-saturday {
+            color: blue;
+        }
+        .data-sunday {
+            color: red;
+        }
+        .subscript {
+            color: black;
+            font-size: small;
+
+        }
+        .header-row {
+            height: 40px;
+        }
+        .data-row {
+            height: 60px;
+            font-size: x-large;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Tháng 10 - October</h1>
+        <table class="calendar-table">
+            <tr class="header-row">
+                <th class="first-header-sunday">C.Nhật</th>
+                <th class="first-header-weekday">T.Hai</th>
+                <th class="first-header-weekday">T.Ba</th>
+                <th class="first-header-weekday">T.Tư</th>
+                <th class="first-header-weekday">T.Năm</th>
+                <th class="first-header-weekday">T.Sáu</th>
+                <th class="first-header-saturday">T.Bảy</th>
+            </tr>
+            <tr class="header-row">
+                <th class="second-header-sunday">Sun</th>
+                <th class="second-header-weekday">Mon</th>
+                <th class="second-header-weekday">Tue</th>
+                <th class="second-header-weekday">Wed</th>
+                <th class="second-header-weekday">Thu</th>
+                <th class="second-header-weekday">Fri</th>
+                <th class="second-header-saturday">Sat</th>
+            </tr>
+            <tr class="data-row">
+                <td class="data-sunday"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>1<sub class="subscript">13</sub></td>
+                <td>2<sub class="subscript">14</sub ></td>
+                <td class="data-saturday">3<sub class="subscript">15</sub></td>
+            </tr>
+            <tr class="data-row">
+                <td class="data-sunday">4<sub class="subscript">16</sub></td>
+                <td>5<sub class="subscript">17</sub></td>
+                <td>6<sub class="subscript">18</sub></td>
+                <td>7<sub class="subscript">19</sub></td>
+                <td>8<sub class="subscript">20</sub></td>
+                <td>9<sub class="subscript">21</sub ></td>
+                <td class="data-saturday">10<sub class="subscript">22</sub></td>
+            </tr>
+            <tr class="data-row">
+                <td class="data-sunday">11<sub class="subscript">23</sub></td>
+                <td>12<sub class="subscript">24</sub></td>
+                <td>13<sub class="subscript">25</sub></td>
+                <td>14<sub class="subscript">26</sub></td>
+                <td>15<sub class="subscript">27</sub></td>
+                <td>16<sub class="subscript">28</sub ></td>
+                <td class="data-saturday">17<sub class="subscript">29</sub></td>
+            </tr>
+            <tr class="data-row">
+                <td class="data-sunday">18<sub class="subscript">1.9</sub></td>
+                <td>19<sub class="subscript">2</sub></td>
+                <td>20<sub class="subscript">3</sub></td>
+                <td>21<sub class="subscript">4</sub></td>
+                <td>22<sub class="subscript">5</sub></td>
+                <td>23<sub class="subscript">6</sub ></td>
+                <td class="data-saturday">24<sub class="subscript">7</sub></td>
+            </tr>
+            <tr class="data-row">
+                <td class="data-sunday">25<sub class="subscript">8</sub></td>
+                <td>26<sub class="subscript">9</sub></td>
+                <td>27<sub class="subscript">10</sub></td>
+                <td>28<sub class="subscript">11</sub></td>
+                <td>29<sub class="subscript">12</sub></td>
+                <td>30<sub class="subscript">13</sub ></td>
+                <td class="data-saturday">31<sub class="subscript">14</sub></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
